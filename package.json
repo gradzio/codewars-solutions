@@ -1,0 +1,25 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "Codewars completed challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gradzio/codewars-solutions.git"
+  },
+  "keywords": [
+    "codewars",
+    "bdd",
+    "codewars",
+    "solutions"
+  ],
+  "author": "gradzio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gradzio/codewars-solutions/issues"
+  },
+  "homepage": "https://github.com/gradzio/codewars-solutions#readme"
+}
