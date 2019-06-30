@@ -4,7 +4,8 @@
   "description": "Codewars completed challenges",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=lcov jasmine"
+    "test": "nyc --reporter=lcov jasmine",
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.26.0",
+    "eslint": "^6.0.1",
     "jasmine": "^3.4.0",
     "nyc": "^14.1.1"
   }
