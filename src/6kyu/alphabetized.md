@@ -1,4 +1,4 @@
-#The alphabetized kata
+# The alphabetized kata
 
 Re-order the characters of a string, so that they are concatenated into a new string in "case-insensitively-alphabetical-order-of-appearance" order. Whitespace and punctuation shall simply be removed!
 
