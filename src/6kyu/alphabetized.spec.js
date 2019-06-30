@@ -13,6 +13,10 @@ describe('Alphabetized', () => {
     expect(alphabetized('bc da')).toEqual('abcd')
   })
 
+  it('should handle simple capital letter word', () => {
+    expect(alphabetized('babB')).toEqual('abbB')
+  })
+
   it('should handle single word with capital letter', () => {
     expect(alphabetized('BbaAdD')).toEqual('aABbdD')
   })
