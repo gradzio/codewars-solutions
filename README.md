@@ -1,8 +1,8 @@
 # Codewars Solutions
 
-| Build Status | Code Coverage |
-| :---: | :---: |
-| [![Build Status](https://travis-ci.org/gradzio/codewars-solutions.svg?branch=master)](https://travis-ci.org/gradzio/home-curiosity) | [![codecov](https://codecov.io/gh/gradzio/codewars-solutions/branch/master/graph/badge.svg)](https://codecov.io/gh/gradzio/codewars-solutions) |
+| Build Status | Code Coverage | Codewars Stats
+| :---: | :---: | :---: |
+| [![Build Status](https://travis-ci.org/gradzio/codewars-solutions.svg?branch=master)](https://travis-ci.org/gradzio/home-curiosity) | [![codecov](https://codecov.io/gh/gradzio/codewars-solutions/branch/master/graph/badge.svg)](https://codecov.io/gh/gradzio/codewars-solutions) | [![codewars](https://www.codewars.com/users/gradzio/badges/micro)](https://www.codewars.com/users/gradzio)
 
 ## Installation
 Run `npm install` - it will install npm packages (mostly dev)
