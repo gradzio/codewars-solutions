@@ -52,6 +52,17 @@ describe('undoRedo', () => {
       expect(em.get('x')).toEqual(1)
     })
 
+    it('should undo del and still del', () => {
+      em.del('x')
+
+      em.undo()
+
+      em.del('x')
+
+      expect(em.get('x')).toBeUndefined()
+    })
+
+
     it('should undo double del', () => {
       em.set('y', 10)
       em.del('x')
