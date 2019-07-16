@@ -1,4 +1,4 @@
-import { Graph, solveGraph } from "./solveGraph";
+import { Graph, solveGraph } from './solveGraph'
 
 describe('solveGraph', () => {
   describe('graph', () => {
