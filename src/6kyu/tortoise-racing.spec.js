@@ -7,7 +7,7 @@ function race(v1, v2, g) {
   n.setSeconds(+diff * 60 * 60)
   return n.toTimeString().slice(0, 8).split(':').map(str => Math.floor(str))
 }
-fdescribe('race', () => {
+describe('race', () => {
   it('basic test', () => {
     expect(race(720, 850, 70)).toEqual([0, 32, 18])
   })
